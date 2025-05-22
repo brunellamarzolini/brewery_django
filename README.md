@@ -20,7 +20,7 @@ A Django REST API gateway for the [Open Brewery DB](https://www.openbrewerydb.or
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/brunellamarzolini/brewery_django.git
    cd brewery_django
    ```
 
