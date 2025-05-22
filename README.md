@@ -43,6 +43,24 @@ A Django REST API gateway for the [Open Brewery DB](https://www.openbrewerydb.or
    python manage.py runserver
    ```
 
+## Using with the Frontend
+
+You can use this API gateway together with the [brewery-explorer frontend project](https://github.com/brunellamarzolini/brewery-explorer.git):
+
+1. Clone the frontend repository:
+   ```bash
+   git clone https://github.com/brunellamarzolini/brewery-explorer.git
+   cd brewery-explorer
+   ```
+
+2. Install dependencies and start the frontend development server:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+By default, CORS is configured to allow requests from the frontend at `http://localhost:5173`
+
 ## API Endpoints
 
 - `/api/breweries/` — List breweries (supports filters)
